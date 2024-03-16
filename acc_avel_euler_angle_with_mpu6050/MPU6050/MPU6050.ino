@@ -161,23 +161,23 @@ void loop() {
   /* Print Data */
 #if 1 // Set to 1 to activate
   Serial.print("accX:");
-  Serial.print(accX);
+  Serial.print(accX/16384.0);
   Serial.print("\t");
   Serial.print("accY:");
-  Serial.print(accY);
+  Serial.print(accY/16384.0);
   Serial.print("\t");
   Serial.print("accZ:");
-  Serial.print(accZ);
+  Serial.print(accZ/16384.0);
   Serial.print("\t");
   
   Serial.print("gyroX:");
-  Serial.print(gyroX);
+  Serial.print(gyroX/32767*250);
   Serial.print("\t");
   Serial.print("gyroY:");
-  Serial.print(gyroY);
+  Serial.print(gyroY/32767*250);
   Serial.print("\t");
   Serial.print("gyroZ:");
-  Serial.print(gyroZ);
+  Serial.print(gyroZ/32767*250);
   Serial.print("\t");
 
   Serial.print("\t");
@@ -204,4 +204,5 @@ void loop() {
 
   Serial.print("\r\n");
   delay(2);
+  
 }
