@@ -1,0 +1,23 @@
+mpu6050 calibration record
+
+1000 counts
+accel_offset_xyz: 5.76   -0.61	13.33
+gyro_offset_xyz: -1.85	-1.19	1.62
+1000 counts
+accel_offset_xyz: -26.50   -0.84   20.64
+gyro_offset_xyz: 1.62	1.29	1.42
+
+3000 counts
+accel_offset_xyz: -11.91   4.95   22.56
+gyro_offset_xyz: 0.86   0.77   0.67
+3000 counts
+accel_offset_xyz: -13.54   -10.52   22.41
+gyro_offset_xyz: 0.94   0.71   0.70
+
+5000 counts
+accel_offset_xyz: -11.86   -8.03   31.16
+gyro_offset_xyz: 0.80   0.73   0.77
+
+20000 counts
+accel_offset_xyz: -23.19   -4.63   19.49
+gyro_offset_xyz: 0.65   0.72   0.62
