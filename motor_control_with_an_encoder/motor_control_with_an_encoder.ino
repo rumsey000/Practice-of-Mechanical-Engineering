@@ -2,7 +2,7 @@
 
 #define ENCA 2 // Green 
 #define ENCB 3 // Yellow
-#define PWM 5
+#define PWM 9
 #define IN2 6
 #define IN1 7
 
@@ -12,7 +12,7 @@ float eprev = 0;
 float eintegral = 0;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(38400);
   pinMode(ENCA,INPUT);
   pinMode(ENCB,INPUT);
   attachInterrupt(digitalPinToInterrupt(ENCA),readEncoder,RISING);
@@ -27,12 +27,12 @@ void setup() {
 void loop() {
 
   // set target position
-  //int target = 1200;
-  int target = 250*sin(prevT/1e6);
+  //int target = gearRatio(45) * encoderResolution(11) * target_degree(90) / 360 = 123.75;
+  int target = 123.75;
 
   // PID constants
   float kp = 1;
-  float kd = 0.025;
+  float kd = 0.0;
   float ki = 0.0;
 
   // time difference

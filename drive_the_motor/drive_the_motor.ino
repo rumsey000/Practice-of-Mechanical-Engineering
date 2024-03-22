@@ -29,19 +29,15 @@ void loop() {
     pos = posi;
   }
 
-  setMotor(1, 25, PWM, IN1, IN2);//between 0 (always off) and 255 (always on)
+  setMotor(1, 70, PWM, IN1, IN2);//between 0 (always off) and 255 (always on)
   delay(200);
-  Serial.print(pos);
-  // setMotor(-1, 25, PWM, IN1, IN2);
-  // delay(200);
-  // Serial.println(pos);
-  // setMotor(0, 25, PWM, IN1, IN2);
-  // delay(20);
-  // Serial.println(pos);
-  Serial.print("\t");
-  Serial.print(digitalRead(IN1));
-  Serial.print("\t");
-  Serial.println(digitalRead(IN2));
+  Serial.println(pos);
+  setMotor(-1, 70, PWM, IN1, IN2);
+  delay(200);
+  Serial.println(pos);
+  setMotor(0, 70, PWM, IN1, IN2);
+  delay(20);
+  Serial.println(pos);
 }
 
 void setMotor(int dir, int pwmVal, int pwm, int in1, int in2){
