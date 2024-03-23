@@ -11,8 +11,13 @@ long prevT = 0;
 float eprev = 0;
 float eintegral = 0;
 
+float gearRatio = 45.0; 
+float encoderResolution = 11.0;
+float target_angle = 90.0;
+float current_angle = 0.0;
+
 void setup() {
-  Serial.begin(38400);
+  Serial.begin(9600);
   pinMode(ENCA,INPUT);
   pinMode(ENCB,INPUT);
   attachInterrupt(digitalPinToInterrupt(ENCA),readEncoder,RISING);
@@ -21,17 +26,16 @@ void setup() {
   pinMode(IN1,OUTPUT);
   pinMode(IN2,OUTPUT);
   
-  Serial.println("target pos");
+  delay(3000);
 }
 
 void loop() {
 
   // set target position
-  //int target = gearRatio(45) * encoderResolution(11) * target_degree(90) / 360 = 123.75;
-  int target = 123.75;
+  int target = gearRatio * encoderResolution * target_angle / 360.0;
 
   // PID constants
-  float kp = 1;
+  float kp = 1.45;
   float kd = 0.0;
   float ki = 0.0;
 
@@ -79,10 +83,18 @@ void loop() {
   // store previous error
   eprev = e;
 
+
+  current_angle = pos * 360.0 / gearRatio / encoderResolution;
+
+
   Serial.print(target);
-  Serial.print(" ");
+  Serial.print(",");
   Serial.print(pos);
-  Serial.println();
+  Serial.print(",");
+  Serial.print(target_angle);
+  Serial.print(",");
+  Serial.print(current_angle);
+  Serial.println(",");
 }
 
 void setMotor(int dir, int pwmVal, int pwm, int in1, int in2){
