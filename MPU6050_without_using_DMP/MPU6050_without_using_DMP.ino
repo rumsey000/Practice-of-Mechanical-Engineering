@@ -1,11 +1,6 @@
 // Include Wire Library for I2C
 #include <Wire.h>
 
-// Include NewLiquidCrystal Library for I2C
-
-// Define LCD pinout
-const int  en = 2, rw = 1, rs = 0, d4 = 4, d5 = 5, d6 = 6, d7 = 7, bl = 3;
- 
 // Define I2C Address - change if reqiuired
 const int i2c_addr = 0x3F;
 
@@ -25,16 +20,10 @@ float angle_pitch_output, angle_roll_output;
 long loop_timer;
 int temp;
 
-
-
 void setup() {
-
   //Start I2C
   Wire.begin();
- 
-  
-  
-  //Setup the registers of the MPU-6050                                                       
+     //Setup the registers of the MPU-6050                                                       
   setup_mpu_6050_registers(); 
   
   //Read the raw acc and gyro data from the MPU-6050 1000 times                                          
@@ -104,13 +93,12 @@ void loop(){
 }
 
 void setup_mpu_6050_registers(){
-
   //Activate the MPU-6050
   
   //Start communicating with the MPU-6050
   Wire.beginTransmission(0x68); 
   //Send the requested starting register                                       
-  Wire.write(0x6B);  
+  Wire.write(0x6B);
   //Set the requested starting register                                                  
   Wire.write(0x00);
   //End the transmission                                                    
