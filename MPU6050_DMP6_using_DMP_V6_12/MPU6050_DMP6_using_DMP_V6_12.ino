@@ -27,15 +27,15 @@ int calib_count = 1;
 double cax =0;  double cay =0;  double caz =0;
 double cgx =0;  double cgy =0;  double cgz =0;
 bool run_calib = true;
-double offset_aa_x = -23.19;
-double offset_aa_y = -4.63;
-double offset_aa_z = 19.49;
-double offset_gy_x = 0.65;
-double offset_gy_y = 0.72;
-double offset_gy_z = 0.62;
-double offset_yaw = -1.69;
-double offset_pitch = -0.01;
-double offset_roll = -0.06;
+double offset_aa_x = 0;
+double offset_aa_y = 0;
+double offset_aa_z = 0;
+double offset_gy_x = 0;
+double offset_gy_y = 0;
+double offset_gy_z = 0;
+double offset_yaw = 0;
+double offset_pitch = 0;
+double offset_roll = 0;
 
 // orientation/motion vars
 Quaternion q;           // [w, x, y, z]         quaternion container
@@ -166,35 +166,35 @@ void loop() {
       // Serial.print(",");
       // Serial.println((gy.z + offset_gy_z) / 65536.0 * 2000);
 
-      // For Serial monitor
-      Serial.print("yaw : ");
-      Serial.print(ypr[0] * 180 / M_PI + offset_yaw);
-      Serial.print("[°]  ");
-      Serial.print("pitch : ");
-      Serial.print(ypr[1] * 180 / M_PI + offset_pitch);
-      Serial.print("[°]  ");
-      Serial.print("roll : ");
-      Serial.print(ypr[2] * 180 / M_PI + offset_roll);
-      Serial.print("[°]  ");
-      Serial.print("Accel X : ");
-      Serial.print((aa.x + offset_aa_x) / 16384.0 );
-      Serial.print("[g]  ");
-      Serial.print("Accel Y : ");
-      Serial.print((aa.y + offset_aa_y) / 16384.0 );
-      Serial.print("[g]  ");
-      Serial.print("Accel Z : ");
-      Serial.print((aa.z + offset_aa_z) / 16384.0 );
-      Serial.print("[g]  ");
-      Serial.print("Gyro X : ");
-      Serial.print((gy.x + offset_gy_x) / 65536.0 * 2000);
-      Serial.print("[dps]  ");
-      Serial.print("Gyro Y : ");
-      Serial.print((gy.y + offset_gy_y) / 65536.0 * 2000);
-      Serial.print("[dps]  ");
-      Serial.print("Gyro Z : ");
-      Serial.print((gy.z + offset_gy_z) / 65536.0 * 2000);
-      Serial.print("[dps]  ");
-      Serial.println();
+      // // For Serial monitor
+      // Serial.print("yaw : ");
+      // Serial.print(ypr[0] * 180 / M_PI + offset_yaw);
+      // Serial.print("[°]  ");
+      // Serial.print("pitch : ");
+      // Serial.print(ypr[1] * 180 / M_PI + offset_pitch);
+      // Serial.print("[°]  ");
+      // Serial.print("roll : ");
+      // Serial.print(ypr[2] * 180 / M_PI + offset_roll);
+      // Serial.print("[°]  ");
+      // Serial.print("Accel X : ");
+      // Serial.print((aa.x + offset_aa_x) / 16384.0 );
+      // Serial.print("[g]  ");
+      // Serial.print("Accel Y : ");
+      // Serial.print((aa.y + offset_aa_y) / 16384.0 );
+      // Serial.print("[g]  ");
+      // Serial.print("Accel Z : ");
+      // Serial.print((aa.z + offset_aa_z) / 16384.0 );
+      // Serial.print("[g]  ");
+      // Serial.print("Gyro X : ");
+      // Serial.print((gy.x + offset_gy_x) / 65536.0 * 2000);
+      // Serial.print("[dps]  ");
+      // Serial.print("Gyro Y : ");
+      // Serial.print((gy.y + offset_gy_y) / 65536.0 * 2000);
+      // Serial.print("[dps]  ");
+      // Serial.print("Gyro Z : ");
+      // Serial.print((gy.z + offset_gy_z) / 65536.0 * 2000);
+      // Serial.print("[dps]  ");
+      // Serial.println();
 
     #endif
 
@@ -212,48 +212,31 @@ void loop() {
       // 2 = +/- 8g
       // 3 = +/- 16g
     
-
-    //Calibration Part
-    if(calib_count < 20000){
-      // cax += aa.x;
-      // cay += aa.y;
-      // caz += aa.z;
-      // cgx += gy.x;
-      // cgy += gy.y;
-      // cgz += gy.z;
     
-      // Serial.print("accel_offset_x:");
-      // Serial.println( 0 - cax/calib_count );
-      // Serial.print("accel_offset_y:");
-      // Serial.println( 0 - cay/calib_count );
-      // Serial.print("accel_offset_z:");
-      // Serial.println( 16384 - caz/calib_count );
+    //Calibration Part
+    //Calculation for average error
+    if(calib_count < 2000){
+      cax += aa.x;
+      cay += aa.y;
+      caz += aa.z;
+      cgx += gy.x;
+      cgy += gy.y;
+      cgz += gy.z;
+      Serial.print("calib_count:");
+      Serial.println(calib_count);
+      Serial.print("accel_offset_x:");
+      Serial.print( 0 - cax/calib_count );
+      Serial.print("  accel_offset_y:");
+      Serial.print( 0 - cay/calib_count );
+      Serial.print("  accel_offset_z:");
+      Serial.println( 16384 - caz/calib_count );
 
-      // Serial.print("gyro_offset_x:");
-      // Serial.println( 0 - cgx/calib_count );
-      // Serial.print("gyro_offset_y:");
-      // Serial.println( 0 - cgy/calib_count );
-      // Serial.print("gyro_offset_z:");
-      // Serial.println(0 - cgz/calib_count );
-
-      // For SerialPlot
-      // Serial.print(ypr[0] * 180 / M_PI);
-      // Serial.print(",");
-      // Serial.print(ypr[1] * 180 / M_PI);
-      // Serial.print(",");
-      // Serial.print(ypr[2] * 180 / M_PI);
-      // Serial.print(",");
-      // Serial.print(aa.x);
-      // Serial.print(",");
-      // Serial.print(aa.y);
-      // Serial.print(",");
-      // Serial.print(aa.z);
-      // Serial.print(",");
-      // Serial.print(gy.x);
-      // Serial.print(",");
-      // Serial.print(gy.y);
-      // Serial.print(",");
-      // Serial.println(gy.z);
+      Serial.print("gyro_offset_x:");
+      Serial.print( 0 - cgx/calib_count );
+      Serial.print("  gyro_offset_y:");
+      Serial.print( 0 - cgy/calib_count );
+      Serial.print("  gyro_offset_z:");
+      Serial.println(0 - cgz/calib_count );
 
       calib_count = calib_count + 1;
     }
