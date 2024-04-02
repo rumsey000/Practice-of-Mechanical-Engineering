@@ -1,156 +1,93 @@
-// Include Wire Library for I2C
+/*
+The contents of this code and instructions are the intellectual property of Carbon Aeronautics. 
+The text and figures in this code and instructions are licensed under a Creative Commons Attribution - Noncommercial - ShareAlike 4.0 International Public Licence. 
+This license lets you remix, adapt, and build upon your work non-commercially, as long as you credit Carbon Aeronautics 
+(but not in any way that suggests that we endorse you or your use of the work) and license your new creations under the identical terms.
+This code and instruction is provided "As Is” without any further warranty. Neither Carbon Aeronautics or the author has any liability to any person or entity 
+with respect to any loss or damage caused or declared to be caused directly or indirectly by the instructions contained in this code or by 
+the software and hardware described in it. As Carbon Aeronautics has no control over the use, setup, assembly, modification or misuse of the hardware, 
+software and information described in this manual, no liability shall be assumed nor accepted for any resulting damage or injury. 
+By the act of copying, use, setup or assembly, the user accepts all resulting liability.
+
+1.0  29 December 2022 -  initial release
+*/
+
 #include <Wire.h>
-
-// Define I2C Address - change if reqiuired
-const int i2c_addr = 0x3F;
-
-//Variables for Gyroscope
-int gyro_x, gyro_y, gyro_z;
-long gyro_x_cal, gyro_y_cal, gyro_z_cal;
-boolean set_gyro_angles;
-
-long acc_x, acc_y, acc_z, acc_total_vector;
-float angle_roll_acc, angle_pitch_acc;
-
-float angle_pitch, angle_roll;
-int angle_pitch_buffer, angle_roll_buffer;
-float angle_pitch_output, angle_roll_output;
-
-// Setup timers and temp variables
-long loop_timer;
-int temp;
-
+float RateRoll, RatePitch, RateYaw;
+float AccX, AccY, AccZ;
+float AngleRoll, AnglePitch;
+float LoopTimer;
+///////////////////////////////////   SETUP   ///////////////////////////////////
 void setup() {
-  //Start I2C
+  Serial.begin(9600);
+  Wire.setClock(400000);
   Wire.begin();
-     //Setup the registers of the MPU-6050                                                       
-  setup_mpu_6050_registers(); 
-  
-  //Read the raw acc and gyro data from the MPU-6050 1000 times                                          
-  for (int cal_int = 0; cal_int < 1000 ; cal_int ++){                  
-    read_mpu_6050_data(); 
-    //Add the gyro x offset to the gyro_x_cal variable                                            
-    gyro_x_cal += gyro_x;
-    //Add the gyro y offset to the gyro_y_cal variable                                              
-    gyro_y_cal += gyro_y; 
-    //Add the gyro z offset to the gyro_z_cal variable                                             
-    gyro_z_cal += gyro_z; 
-    //Delay 3us to have 250Hz for-loop                                             
-    delay(3);                                                          
-  }
-
-  // Divide all results by 1000 to get average offset
-  gyro_x_cal /= 1000;                                                 
-  gyro_y_cal /= 1000;                                                 
-  gyro_z_cal /= 1000;
-  
-  // Start Serial Monitor                                                 
-  Serial.begin(115200);
-  
-  // Init Timer 
-  loop_timer = micros();                                               
-}
-
-void loop(){
-
-  // Get data from MPU-6050
-  read_mpu_6050_data();
-     
-  //Subtract the offset values from the raw gyro values
-  gyro_x -= gyro_x_cal;                                                
-  gyro_y -= gyro_y_cal;                                                
-  gyro_z -= gyro_z_cal;                                                
-         
-  //Gyro angle calculations . Note 0.0000611 = 1 / (250Hz x 65.5)
-  
-  //Calculate the traveled pitch angle and add this to the angle_pitch variable
-  angle_pitch += gyro_x * 0.0000611;  
-  //Calculate the traveled roll angle and add this to the angle_roll variable
-  //0.000001066 = 0.0000611 * (3.142(PI) / 180degr) The Arduino sin function is in radians                                
-  angle_roll += gyro_y * 0.0000611; 
-                                     
-  //If the IMU has yawed transfer the roll angle to the pitch angle
-  angle_pitch += angle_roll * sin(gyro_z * 0.000001066);
-  //If the IMU has yawed transfer the pitch angle to the roll angle               
-  angle_roll -= angle_pitch * sin(gyro_z * 0.000001066);               
-  
-  //Accelerometer angle calculations
-  
-  //Calculate the total accelerometer vector
-  acc_total_vector = sqrt((acc_x*acc_x)+(acc_y*acc_y)+(acc_z*acc_z)); 
-   
-  //57.296 = 1 / (3.142 / 180) The Arduino asin function is in radians
-  //Calculate the pitch angle
-  angle_pitch_acc = asin((float)acc_y/acc_total_vector)* 57.296; 
-  //Calculate the roll angle      
-  angle_roll_acc = asin((float)acc_x/acc_total_vector)* -57.296;       
-  
-  //Accelerometer calibration value for pitch
-  angle_pitch_acc -= 0.0;
-  //Accelerometer calibration value for roll                                              
-  angle_roll_acc -= 0.0;                                               
-
-}
-
-void setup_mpu_6050_registers(){
-  //Activate the MPU-6050
-  
-  //Start communicating with the MPU-6050
+  //disable sleep mode
   Wire.beginTransmission(0x68); 
-  //Send the requested starting register                                       
   Wire.write(0x6B);
-  //Set the requested starting register                                                  
   Wire.write(0x00);
-  //End the transmission                                                    
-  Wire.endTransmission(); 
-                                              
-  //Configure the accelerometer (+/-8g)
-  
-  //Start communicating with the MPU-6050
-  Wire.beginTransmission(0x68); 
-  //Send the requested starting register                                       
-  Wire.write(0x1C);   
-  //Set the requested starting register                                                 
-  Wire.write(0x10); 
-  //End the transmission                                                   
-  Wire.endTransmission(); 
-                                              
-  //Configure the gyro (500dps full scale)
-  
-  //Start communicating with the MPU-6050
-  Wire.beginTransmission(0x68);
-  //Send the requested starting register                                        
-  Wire.write(0x1B);
-  //Set the requested starting register                                                    
-  Wire.write(0x08); 
-  //End the transmission                                                  
-  Wire.endTransmission(); 
-                                              
+  Wire.endTransmission();
 }
+///////////////////////////////////   LOOP   ///////////////////////////////////
+void loop() {
+  gyro_signals();
+  // Serial.print("Acceleration X [g]= ");
+  // Serial.print(AccX);
+  // Serial.print(" Acceleration Y [g]= ");
+  // Serial.print(AccY);
+  // Serial.print(" Acceleration Z [g]= ");
+  // Serial.print(AccZ);
+  // Serial.print(" Gyroscope X [dps]= ");
+  // Serial.print(RateRoll);
+  // Serial.print(" Gyroscope Y [dps]= ");
+  // Serial.print(RatePitch);
+  // Serial.print(" Gyroscope Z [dps]= ");
+  // Serial.println(RateYaw);
 
-
-void read_mpu_6050_data(){ 
-
-  //Read the raw gyro and accelerometer data
-
-  //Start communicating with the MPU-6050                                          
-  Wire.beginTransmission(0x68);  
-  //Send the requested starting register                                      
+  Serial.print(" Roll angle [°]= ");
+  Serial.print(AngleRoll);
+  Serial.print(" Pitch angle [°]= ");
+  Serial.println(AnglePitch);
+}
+///////////////////////////////////   FUNCTIONS   ///////////////////////////////////
+void gyro_signals(void) {
+  Wire.beginTransmission(0x68);
+  Wire.write(0x1A);
+  Wire.write(0x05);
+  Wire.endTransmission();
+  Wire.beginTransmission(0x68);
+  //set accelerometer full scale range in +-2g
+  Wire.write(0x1C);
+  Wire.write(0x00);
+  Wire.endTransmission();
+  //pull accelerometer measurements from sensor
+  Wire.beginTransmission(0x68);
   Wire.write(0x3B);
-  //End the transmission                                                    
   Wire.endTransmission(); 
-  //Request 14 bytes from the MPU-6050                                  
-  Wire.requestFrom(0x68,14);    
-  //Wait until all the bytes are received                                       
-  while(Wire.available() < 14);
-  
-  //Following statements left shift 8 bits, then bitwise OR.  
-  //Turns two 8-bit values into one 16-bit value                                       
-  acc_x = Wire.read()<<8|Wire.read();                                  
-  acc_y = Wire.read()<<8|Wire.read();                                  
-  acc_z = Wire.read()<<8|Wire.read();                                  
-  temp = Wire.read()<<8|Wire.read();                                   
-  gyro_x = Wire.read()<<8|Wire.read();                                 
-  gyro_y = Wire.read()<<8|Wire.read();                                 
-  gyro_z = Wire.read()<<8|Wire.read();                                 
+  Wire.requestFrom(0x68,6);
+  int16_t AccXLSB = Wire.read() << 8 | Wire.read();
+  int16_t AccYLSB = Wire.read() << 8 | Wire.read();
+  int16_t AccZLSB = Wire.read() << 8 | Wire.read();
+  Wire.beginTransmission(0x68);
+  //set gyroscope full scale range in +-250dps
+  Wire.write(0x1B); 
+  Wire.write(0x00);
+  Wire.endTransmission(); 
+  //pull gyroscope measurements from sensor
+  Wire.beginTransmission(0x68);
+  Wire.write(0x43);
+  Wire.endTransmission();
+  Wire.requestFrom(0x68,6);
+  int16_t GyroX=Wire.read()<<8 | Wire.read();
+  int16_t GyroY=Wire.read()<<8 | Wire.read();
+  int16_t GyroZ=Wire.read()<<8 | Wire.read();
+  //convert measurements to physical value
+  RateRoll=(float)GyroX/131.072;
+  RatePitch=(float)GyroY/131.072;
+  RateYaw=(float)GyroZ/131.072;
+  AccX=(float)AccXLSB/16384;
+  AccY=(float)AccYLSB/16384;
+  AccZ=(float)AccZLSB/16384;
+  AngleRoll=atan(AccY/sqrt(AccX*AccX+AccZ*AccZ))*1/(3.142/180);
+  AnglePitch=-atan(AccX/sqrt(AccY*AccY+AccZ*AccZ))*1/(3.142/180);
 }
