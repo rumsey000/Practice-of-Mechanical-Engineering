@@ -66,7 +66,8 @@ void setup() {
   accX = (int16_t)((i2cData[0] << 8) | i2cData[1]);
   accY = (int16_t)((i2cData[2] << 8) | i2cData[3]);
   accZ = (int16_t)((i2cData[4] << 8) | i2cData[5]);
-
+  /* Calibration */
+  calibration();
   // Source: http://www.freescale.com/files/sensors/doc/app_note/AN3461.pdf eq. 25 and eq. 26
   // atan2 outputs the value of -π to π (radians) - see http://en.wikipedia.org/wiki/Atan2
   // It is then converted from radians to degrees
@@ -97,8 +98,9 @@ void loop() {
   tempRaw = (int16_t)((i2cData[6] << 8) | i2cData[7]);
   gyroX = (int16_t)((i2cData[8] << 8) | i2cData[9]);
   gyroY = (int16_t)((i2cData[10] << 8) | i2cData[11]);
-  gyroZ = (int16_t)((i2cData[12] << 8) | i2cData[13]);;
-
+  gyroZ = (int16_t)((i2cData[12] << 8) | i2cData[13]);
+  /* Calibration */
+  calibration();
   double dt = (double)(micros() - timer) / 1000000; // Calculate delta time
   timer = micros();
 
@@ -171,16 +173,16 @@ void loop() {
   Serial.print("\t");
 #endif
 
-  Serial.print(roll); Serial.print("\t");
-  Serial.print(gyroXangle); Serial.print("\t");
-  Serial.print(compAngleX); Serial.print("\t");
+  //Serial.print(roll); Serial.print("\t");
+  //Serial.print(gyroXangle); Serial.print("\t");
+  //Serial.print(compAngleX); Serial.print("\t");
   Serial.print(kalAngleX); Serial.print("\t");
 
   Serial.print("\t");
 
-  Serial.print(pitch); Serial.print("\t");
-  Serial.print(gyroYangle); Serial.print("\t");
-  Serial.print(compAngleY); Serial.print("\t");
+  //Serial.print(pitch); Serial.print("\t");
+  //Serial.print(gyroYangle); Serial.print("\t");
+  //Serial.print(compAngleY); Serial.print("\t");
   Serial.print(kalAngleY); Serial.print("\t");
 
 #if 0 // Set to 1 to print the temperature
@@ -192,4 +194,15 @@ void loop() {
 
   Serial.print("\r\n");
   delay(2);
+}
+
+void calibration(){
+  double accX_offset = 24.0;double accY_offset = 18.0;double accZ_offset = 10.0;
+  double gyroX_offset = 7.0;double gyroY_offset = -4.0;double gyroZ_offset = 8.0;
+  accX += accX_offset;
+  accY += accY_offset;
+  accZ += accZ_offset;
+  gyroX += gyroX_offset;
+  gyroY += gyroY_offset;
+  gyroZ += gyroZ_offset;
 }
