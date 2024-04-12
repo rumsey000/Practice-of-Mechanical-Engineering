@@ -48,7 +48,8 @@ void setup() {
 void loop() {
   if (state==0){
     // Read and debounce botton 
-    rightservo.write(0);
+    leftservo.write(0);
+    rightservo.write(90);
     ReadAndDebounceBotton();
   }
   if (state==1){
@@ -57,23 +58,32 @@ void loop() {
   }
   if(state == 2){ 
     // Forward rotation
-    PIDControlMotor(90.0,0.86,0.0,0.0);
-    rightservo.write(90);
+    PIDControlMotor(150.0,0.86,0.0,0.0);
+    leftservo.write(90);
+    rightservo.write(0);
     // ReadAndDebounceBotton 
     ReadAndDebounceBotton();   
   }
   if (state==3){
-    // Reverse rotation
-    // PIDControlMotor(0.0,0.868,0.0,0.0);
+    // Reverse servo motor
+    leftservo.write(0);
+    rightservo.write(90);  
     // ReadAndDebounceBotton 
-    // ReadAndDebounceBotton();   
-    state++;
+    ReadAndDebounceBotton();   
   }
   if (state==4){
+    // Reverse dc motor
+    PIDControlMotor(0.0,0.868,0.0,0.0);
+    // ReadAndDebounceBotton 
+    ReadAndDebounceBotton();
+  }
+  if (state==5){
+    // Stop motor
     setMotor(0,0,PWM,IN1,IN2);
     delay(500);
     state = 0;
   }
+  Serial.println(state);
 }
 ////////////////////        FUNCTION        ////////////////////
 void setMotor(int dir, int pwmVal, int pwm, int in1, int in2){
@@ -160,5 +170,7 @@ void PIDControlMotor(float target_angle,float kp,float ki,float kd){
   Serial.print(target_angle);
   Serial.print(",");
   Serial.print(current_angle);
+  Serial.println(",");
+  Serial.print(pwm);
   Serial.println(",");
 }

@@ -1,5 +1,6 @@
 // Library
 #include <util/atomic.h> // For the ATOMIC_BLOCK macro
+#include <Servo.h> // For servo motor control
 // IO PIN
 #define BUTTON 3  // interrupt only 2 3 available
 #define ENCA 2 // Green interrupt only 2 3 available
@@ -25,6 +26,9 @@ unsigned long last_debounce_time = 0;
 unsigned long debounce_delay = 50;   
 // Motor State
 int state = 0;
+// Servo motor declare
+Servo leftservo;
+Servo rightservo;
 ////////////////////        SETUP        ////////////////////
 
 void setup() {
@@ -37,6 +41,8 @@ void setup() {
   pinMode(IN2,OUTPUT);
   pinMode(LED,OUTPUT);
   attachInterrupt(digitalPinToInterrupt(ENCA),readEncoder,RISING);
+  leftservo.attach(9);
+  rightservo.attach(10);
 }
 ////////////////////        LOOP        ////////////////////
 void loop() {
@@ -46,25 +52,28 @@ void loop() {
     ReadAndDebounceBotton();
   }
   if (state==1){
+    led_state = !led_state;// dark->light
+    digitalWrite(LED,led_state); //light
     delay(2000);
     state++;
   }
   if(state == 2){ 
     // Forward rotation
-    PIDControlMotor(90.0,0.88,0.0,0.0);
+    PIDControlMotor(-160.0,2.8,0.0,0.0);
     // ReadAndDebounceBotton 
     ReadAndDebounceBotton();   
   }
   if (state==3){
-    // Reverse rotation
-    PIDControlMotor(0.0,0.88,0.0,0.0);
-    // ReadAndDebounceBotton 
-    ReadAndDebounceBotton();   
+    //Reverse rotation
+    PIDControlMotor(0.0,0.5,0.0,0.0);
+    // //ReadAndDebounceBotton 
+    ReadAndDebounceBotton();  
   }
   if (state==4){
     setMotor(0,0,PWM,IN1,IN2);
-    delay(500);
-    state = 0;
+    led_state = !led_state;// light->dark
+    digitalWrite(LED,led_state); //dark
+    state = 0; 
   }
 }
 ////////////////////        FUNCTION        ////////////////////
@@ -101,12 +110,10 @@ void ReadAndDebounceBotton(){
     if (reading != button_state) {
       button_state = reading;
       if (button_state == LOW) {
-        led_state = !led_state;
         state++;
       }
     }
   }
-  digitalWrite(LED,led_state);
   last_button_state = reading;
 }
 void PIDControlMotor(float target_angle,float kp,float ki,float kd){
@@ -152,5 +159,11 @@ void PIDControlMotor(float target_angle,float kp,float ki,float kd){
   Serial.print(target_angle);
   Serial.print(",");
   Serial.print(current_angle);
+  Serial.print(",");
+  Serial.print(dir);
+  Serial.print(",");
+  Serial.print(u);
+  Serial.print(",");
+  Serial.print(pwr);
   Serial.println(",");
 }
