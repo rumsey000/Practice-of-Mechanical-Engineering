@@ -12,5 +12,5 @@
 - 角速度對時間的積分項亦能得出yaw和roll的傾角，但測量時間愈久誤差愈大。
 - 使用卡爾曼濾波器來將前兩項融合出新的yaw和roll的傾角，其優勢在於可將其的缺點互相彌補，因而較為精準。
 - 主要使用 [TKJ Electronics](https://github.com/TKJElectronics/KalmanFilter) 這個開源程式庫內的檔案進行資料讀取
-- 校正部分則另外參考 [這個網站](https://wired.chillibasket.com/2015/01/calibrating-mpu6050/) 的程式並將讀取資料的程式改寫為上述開源程式庫的I2C通訊，將這個校正程式先跑一次後，再填入上述程式的偏移量中。
+- 校正部分則另外參考 [這個網站](https://wired.chillibasket.com/2015/01/calibrating-mpu6050/) 的程式並將讀取資料的函數改寫為上述開源程式庫的I2C通訊，將這個校正程式先跑一次後，再填入上述程式的偏移量中。
 ### encoder
