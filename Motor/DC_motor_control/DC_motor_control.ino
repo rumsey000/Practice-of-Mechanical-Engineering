@@ -59,15 +59,16 @@ void loop() {
   }
   if(state == 2){ 
     // Forward rotation
-    PIDControlMotor(-160.0,2.8,0.0,0.0);
+    PIDControlMotor(-160,2.45,0.0,0.0);
     // ReadAndDebounceBotton 
     ReadAndDebounceBotton();   
   }
   if (state==3){
-    //Reverse rotation
-    PIDControlMotor(0.0,0.5,0.0,0.0);
-    // //ReadAndDebounceBotton 
-    ReadAndDebounceBotton();  
+    // //Reverse rotation
+    // PIDControlMotor(0.0,0.3,0.0,0.0);
+    // // //ReadAndDebounceBotton 
+    // ReadAndDebounceBotton();  
+    state++;
   }
   if (state==4){
     setMotor(0,0,PWM,IN1,IN2);
