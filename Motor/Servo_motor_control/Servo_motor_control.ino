@@ -5,18 +5,27 @@ Servo rightservo;  // 建立SERVO物件
 
 
 void setup() {
+  Serial.begin(9600);
   leftservo.attach(10);  // 設定要將伺服馬達接到哪一個PIN腳
   rightservo.attach(9);
+  
+  leftservo.write(90);
+  rightservo.write(0);
+  delay(1000);
+  //leftservo.write(0); 
+  //rightservo.write(90);
+  delay(1000);
+  // Serial.println(leftservo.read()); 
+  // delay(1000); 
+  // leftservo.write(0);  
+  // Serial.println(leftservo.read());  
 }
 
-void loop() {   
-  leftservo.write(0);  //旋轉到0度，就是一般所說的歸零
-  rightservo.write(0);  //旋轉到0度，就是一般所說的歸零
-  delay(1000);
-  leftservo.write(90); //旋轉到90度
-  rightservo.write(90);
-  delay(1000);
-  leftservo.write(180); //旋轉到180度
-  rightservo.write(180);
-  delay(1000);
+void loop() {  
+  Serial.print(rightservo.read()); 
+  Serial.print("\t"); 
+  Serial.println(leftservo.read());
+    //rightservo.write(0);  //旋轉到0度，就是一般所說的歸零
+  //rightservo.write(95);
+  //delay(1000);
 }
