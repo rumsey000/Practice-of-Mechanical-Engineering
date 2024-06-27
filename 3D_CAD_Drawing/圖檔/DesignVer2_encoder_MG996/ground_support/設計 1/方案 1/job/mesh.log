@@ -1,0 +1,202 @@
+Model successfully read and processed
+Meshing constraints read successfully.
+(0) Surface Meshing started
+(1) Small Feature Detection started
+(1) 25% completed
+(1) 50% completed
+(1) 75% completed
+(2) Detect Close Edges started
+(2) 25% completed
+(2) 50% completed
+(2) 75% completed
+(2) 100% completed
+(2) Detect Close Edges finished: CPU time: 0.015625 s, clock time: 0.036 s
+(1) 100% completed
+(1) Small Feature Detection finished: CPU time: 0.015625 s, clock time: 0.04 s
+(1) Structured Meshing started
+Number of 3D Boundary Layers identified: 12
+(1) Structured Meshing finished: CPU time: 0 s, clock time: 0 s
+(1) Face Meshing started
+(1) Face Meshing 1/26
+tag = 1, type = Plane -> CFdesign ID = 1
+(1) Face Meshing 2/26
+tag = 2, type = Plane -> CFdesign ID = 2
+(1) Face Meshing 3/26
+tag = 3, type = Plane -> CFdesign ID = 3
+(1) Face Meshing 4/26
+tag = 4, type = Plane -> CFdesign ID = 4
+(1) Face Meshing 5/26
+tag = 5, type = Plane -> CFdesign ID = 5
+(1) Face Meshing 6/26
+tag = 6, type = Plane -> CFdesign ID = 6
+(1) Face Meshing 7/26
+tag = 7, type = Plane -> CFdesign ID = 7
+(1) Face Meshing 8/26
+tag = 8, type = Plane -> CFdesign ID = 8
+(1) Face Meshing 9/26
+tag = 9, type = Plane -> CFdesign ID = 9
+(1) Face Meshing 10/26
+tag = 10, type = Plane -> CFdesign ID = 10
+(1) Face Meshing 11/26
+tag = 11, type = Plane -> CFdesign ID = 11
+(1) Face Meshing 12/26
+tag = 12, type = Plane -> CFdesign ID = 12
+(1) Face Meshing 13/26
+tag = 13, type = Plane -> CFdesign ID = 13
+(1) Face Meshing 14/26
+tag = 14, type = Plane -> CFdesign ID = 14
+(1) Face Meshing 15/26
+tag = 15, type = Plane -> CFdesign ID = 15
+(1) Face Meshing 16/26
+tag = 16, type = Plane -> CFdesign ID = 16
+(1) Face Meshing 17/26
+tag = 17, type = Plane -> CFdesign ID = 17
+(1) Face Meshing 18/26
+tag = 18, type = Plane -> CFdesign ID = 18
+(1) Face Meshing 19/26
+tag = 19, type = Plane -> CFdesign ID = 19
+(1) Face Meshing 20/26
+tag = 20, type = Plane -> CFdesign ID = 20
+(1) Face Meshing 21/26
+tag = 21, type = Plane -> CFdesign ID = 21
+(1) Face Meshing 22/26
+tag = 22, type = Plane -> CFdesign ID = 22
+(1) Face Meshing 23/26
+tag = 23, type = Plane -> CFdesign ID = 23
+(1) Face Meshing 24/26
+tag = 24, type = Plane -> CFdesign ID = 24
+(1) Face Meshing 25/26
+tag = 25, type = Plane -> CFdesign ID = 25
+(1) Face Meshing 26/26
+tag = 26, type = Plane -> CFdesign ID = 26
+(1) Face Meshing finished: CPU time: 0.34375 s, clock time: 1.076 s
+(1) Structured Meshing started
+(1) Structured Meshing finished: CPU time: 0 s, clock time: 0.003 s
+(1) Surface Mesh Improver started
+(2) Surface Mesh Improvement started
+(2) 25% completed
+(2) Surface Mesh Improvement finished: CPU time: 0.015625 s, clock time: 0.028 s
+(2) Surface Smoothing started
+(2) 25% completed
+(2) 50% completed
+(2) 75% completed
+(2) Surface Smoothing finished: CPU time: 0.09375 s, clock time: 0.157 s
+(2) Fix Surface Intersections started
+(2) Fix Surface Intersections finished: CPU time: 0.078125 s, clock time: 0.333 s
+(1) Surface Mesh Improver finished: CPU time: 0.1875 s, clock time: 0.521 s
+(0) Surface Meshing finished: CPU time: 0.5625 s, clock time: 1.675 s
+  Nodal Aspect Ratio Summary
+Surface 1: 70.469
+Surface 2: 4.1609
+Surface 3: 80.4093
+Surface 4: 4.05109
+Surface 5: 80.3028
+Surface 6: 3.95006
+Surface 7: 80.4093
+Surface 8: 3.08242
+Surface 9: 3.29187
+Surface 10: 4.28808
+Surface 11: 83.091
+Surface 12: 70.469
+Surface 13: 79.4628
+Surface 14: 83.091
+Surface 15: 4.43506
+Surface 16: 894.371
+Surface 17: 1398.45
+Surface 18: 1645.55
+Surface 19: 1645.55
+Surface 20: 2.73548
+Surface 21: 10.1683
+Surface 22: 894.371
+Surface 23: 1385.63
+Surface 24: 10.5069
+Surface 25: 7.13831
+Surface 26: 1385.63
+Maximum nodal aspect ratio: 1645.55
+(0) Volume Meshing started
+(1) Structured Meshing started
+Number of 3D Boundary Layers identified: 12
+Number of BL regions estimated = 52587
+Boundary Layer meshing
+Finding growth curves...
+Checking boundary growth curves...
+Checking intersecting layers...
+Edge triangulation
+Face triangulation
+(2) Adapting Mesh started
+Iteration 1: Normalized edge length range: 2.87245 .. 0.541624
+Iteration 2: Normalized edge length range: 2.12642 .. 0.582757
+Iteration 3: Normalized edge length range: 1.59446 .. 0.5187
+Final normalized edge length range: 1.44962 .. 0.347723
+(2) Adapting Mesh finished: CPU time: 0 s, clock time: 0.049 s
+(2) Fix Surface Intersections started
+(2) Fix Surface Intersections finished: CPU time: 0.140625 s, clock time: 0.443 s
+Region triangulation
+Number of BL regions created = 52587
+(1) Structured Meshing finished: CPU time: 1 s, clock time: 2.611 s
+(1) Creating volume mesh started
+(1) Creating volume mesh finished: CPU time: 9.6875 s, clock time: 23.56 s
+(1) Adapting Mesh started
+Iteration 1: Normalized edge length range: 3.30132 .. 0.00627895
+Iteration 2: Normalized edge length range: 2.47536 .. 0.00627895
+Iteration 3: Normalized edge length range: 1.85646 .. 0.00627895
+Final normalized edge length range: 1.45 .. 0.00627895
+(1) Adapting Mesh finished: CPU time: 1.20313 s, clock time: 2.614 s
+(1) Volume Mesh Improver started
+(2) Volume Optimization started
+(2) Volume Optimization finished: CPU time: 10.3594 s, clock time: 21.333 s
+(2) Volume Smoothing started
+(2) 25% completed
+(2) 50% completed
+(2) 75% completed
+(2) Volume Smoothing finished: CPU time: 0.65625 s, clock time: 1.4 s
+(1) Volume Mesh Improver finished: CPU time: 11.0625 s, clock time: 22.894 s
+(0) Volume Meshing finished: CPU time: 22.9531 s, clock time: 51.694 s
+Volume meshing peak memory usage is 323.006 MBytes.
+Mesh Statistics
+Node count: 67949
+Element count: 259369
+Minimum element volume: 1.7702e-06
+Maximum element volume: 7394.87
+Total model volume: 7.16246e+06
+  Nodal Aspect Ratio Summary
+Surface 1: 515.789
+Surface 2: 36.9858
+Surface 3: 714.75
+Surface 4: 33.0117
+Surface 5: 713.803
+Surface 6: 18848.9
+Surface 7: 9839.11
+Surface 8: 19929.9
+Surface 9: 19521
+Surface 10: 38.1163
+Surface 11: 738.586
+Surface 12: 515.789
+Surface 13: 706.336
+Surface 14: 10458.3
+Surface 15: 26.8868
+Surface 16: 799.651
+Surface 17: 1464.94
+Surface 18: 1725.29
+Surface 19: 1725.29
+Surface 20: 790.547
+Surface 21: 63.6405
+Surface 22: 798.51
+Surface 23: 1698.41
+Surface 24: 51.379
+Surface 25: 38.7111
+Surface 26: 1534.93
+Maximum nodal aspect ratio: 19929.9
+Meshing concluded.
+setUpwardAdjacencies = 0.28 sec
+interpolateExtrudedFaces = 0.01 sec
+interpolatePeriodicFaces = 0.00 sec
+addPeripheralFaces = 0.00 sec
+replicateMovingRegions = 0.00 sec
+splitFluidSolidInterfaces = 0.00 sec
+removeUnreferencedVertices = 0.00 sec
+Time to write model = 0.00 sec
+Time to write mesh = 0.13 sec
+Time to write GBI = 0.55 sec
+Time to free model entity memory = 0.00 sec
+Time to delete database = 0.08 sec

@@ -1,0 +1,7 @@
+<cfd_design_studies version="23.1.20231231" user_name="USER">
+ <design_study name="ground" folder="E:/university/大三/大三下/機工實務/圖檔/DesignVer2/ground" instance_id="78846b64-ad26-43a7-9100-c34cae8bb870" study_id="2b24922f-8d9c-4687-80be-9baa98934a7c">
+  <design launcher_type="CP_ASM_INVENTOR_IMPORT" name="設計 1" model_id="[Midterm]場地.cfdsmt" lock_status="true">
+   <analysis name="方案 1"/>
+  </design>
+ </design_study>
+</cfd_design_studies>

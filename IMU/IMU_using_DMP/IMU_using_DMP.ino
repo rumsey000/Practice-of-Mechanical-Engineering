@@ -8,6 +8,7 @@ MPU6050 mpu;
 // #define OUTPUT_READABLE_REALACCEL
 // #define OUTPUT_READABLE_WORLDACCEL
 #define INTERRUPT_PIN 2  // use pin 2 on Arduino Uno & most boards
+#define LED 13
 // MPU control/status vars
 bool dmpReady = false;  // set true if DMP init was successful
 uint8_t mpuIntStatus;   // holds actual interrupt status byte from MPU
@@ -35,6 +36,7 @@ void dmpDataReady() {
 // ===                      INITIAL SETUP                       ===
 // ================================================================
 void setup() {
+    pinMode(LED, OUTPUT);
   // join I2C bus (I2Cdev library doesn't do this automatically)
   #if I2CDEV_IMPLEMENTATION == I2CDEV_ARDUINO_WIRE
     Wire.begin();
@@ -111,10 +113,10 @@ void setup() {
 // ===                    MAIN PROGRAM LOOP                     ===
 // ================================================================
 void loop() {
-  // if programming failed, don't try to do anything
-  if (!dmpReady) return;
-  // read a packet from FIFO
-  if (mpu.dmpGetCurrentFIFOPacket(fifoBuffer)) { // Get the Latest packet 
+    // if programming failed, don't try to do anything
+    if (!dmpReady) return;
+    // read a packet from FIFO
+    if (mpu.dmpGetCurrentFIFOPacket(fifoBuffer)) { // Get the Latest packet 
     #ifdef OUTPUT_READABLE_YAWPITCHROLL
       // display Euler angles in degrees (-180° ~ 180°)
       mpu.dmpGetQuaternion(&q, fifoBuffer);
@@ -124,23 +126,24 @@ void loop() {
       mpu.dmpGetGyro(&gy, fifoBuffer);
 
       // For SerialPlot
-      Serial.print(ypr[0] * 180 / M_PI + offset_yaw);
-      Serial.print(",");
-      Serial.print(ypr[1] * 180 / M_PI + offset_pitch);
-      Serial.print(",");
-      Serial.print(ypr[2] * 180 / M_PI + offset_roll);
-      Serial.print(",");
-      Serial.print((aa.x) / 65536.0 * 4.0);
-      Serial.print(",");
-      Serial.print((aa.y) / 65536.0 * 4.0);
-      Serial.print(",");
-      Serial.print((aa.z) / 65536.0 * 4.0);
-      Serial.print(",");
-      Serial.print((gy.x) / 65536.0 * 4000.0);
-      Serial.print(",");
-      Serial.print((gy.y) / 65536.0 * 4000.0);
-      Serial.print(",");
-      Serial.println((gy.z) / 65536.0 * 4000.0);
+      Serial.println("yaw:");
+      Serial.println(ypr[0] * 180 / M_PI + offset_yaw);
+      // Serial.print(",");
+      // Serial.print(ypr[1] * 180 / M_PI + offset_pitch);
+      // Serial.print(",");
+      // Serial.print(ypr[2] * 180 / M_PI + offset_roll);
+      // Serial.print(",");
+      // Serial.print((aa.x) / 65536.0 * 4.0);
+      // Serial.print(",");
+      // Serial.print((aa.y) / 65536.0 * 4.0);
+      // Serial.print(",");
+      // Serial.print((aa.z) / 65536.0 * 4.0);
+      // Serial.print(",");
+      // Serial.print((gy.x) / 65536.0 * 4000.0);
+      // Serial.print(",");
+      // Serial.print((gy.y) / 65536.0 * 4000.0);
+      // Serial.print(",");
+      // Serial.println((gy.z) / 65536.0 * 4000.0);
 
       // For Serial monitor
       // Serial.print("yaw : ");
@@ -171,7 +174,7 @@ void loop() {
       // Serial.print((gy.z) / 65536.0 * 4000.0);
       // Serial.print("[dps]  ");
       Serial.println();
-      delay(100);
+      //delay(100);
     #endif
 
     #ifdef OUTPUT_READABLE_REALACCEL
@@ -205,4 +208,8 @@ void loop() {
     #endif
       
   }
+  digitalWrite(LED, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(100);                      // wait for a second
+  digitalWrite(LED, LOW);   // turn the LED off by making the voltage LOW
+  delay(100); 
 }

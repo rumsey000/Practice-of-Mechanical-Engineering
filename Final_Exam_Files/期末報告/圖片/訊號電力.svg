@@ -1,0 +1,2282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1189mm"
+   height="841mm"
+   viewBox="0 0 1189 841"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="訊號電力.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.3896216"
+     inkscape:cx="333.54405"
+     inkscape:cy="2629.8527"
+     inkscape:window-width="2560"
+     inkscape:window-height="1334"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-3-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-1-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-37" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-8-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-3-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-3-4-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-1-4-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-3-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-7-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-3-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-7-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-8-7-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-3-5-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-9-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-37-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-3-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-1-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-8-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-3-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-3-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-1-76" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-3-4-04"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-1-4-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-3-4-04-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-1-4-4-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-3-4-04-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-1-4-4-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-3-2-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-1-7-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-3-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-7-35" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-3-3-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-7-3-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-3-4-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-7-5-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-9-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-8-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-9-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-37-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-8-7-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-3-5-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-8-7-6-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-3-5-4-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-3-4-0-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-1-4-1-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-9-6-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-37-3-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-5-3-4-0-8-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-4-1-4-1-9-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-0-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-3-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-0-3-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-3-4-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-0-3-9-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-3-4-4-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-0-3-96"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-3-4-41" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-0-3-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-3-4-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-6-8-7-0-3-96-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-6-1-8-3-4-41-7" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="圖層 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1.9680407,-86.899294)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:1"
+       x="25.648005"
+       y="151.31046"
+       id="text12-4-3-9-1"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         x="25.648005"
+         y="151.31046">設定好的目標角度</tspan><tspan
+         sodipodi:role="line"
+         x="25.648005"
+         y="160.65367"
+         id="tspan1">    (170度)</tspan><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         x="25.648005"
+         y="169.99689" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#042e8b;fill-opacity:0.852174;stroke:#0328a4;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:0.372549"
+       x="17.995691"
+       y="175.51614"
+       id="text12-4-3-9-1-90"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan4-2"
+         x="17.995691"
+         y="175.51614">訊號控制</tspan><tspan
+         sodipodi:role="line"
+         id="tspan5-4"
+         x="17.995691"
+         y="184.85936" /></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.74599923;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-6-5-6-4"
+       width="37.436779"
+       height="10.036489"
+       x="98.623169"
+       y="148.03175" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:1"
+       x="105.57076"
+       y="154.70103"
+       id="text12-4-3-9-9"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         x="105.57076"
+         y="154.70103">Arduino</tspan></text>
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.62301642;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8)"
+       d="m 86.363924,152.45202 h 11.76962"
+       id="path18-8-8" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.69999929;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7)"
+       d="M 136.03327,152.82005 H 147.8029"
+       id="path18-8-8-0" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.96755705;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5)"
+       d="M 177.04357,185.68998 V 158.55721"
+       id="path18-8-8-0-9" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.69999929;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-8)"
+       d="m 203.06969,152.29905 h 11.76962"
+       id="path18-8-8-0-9-6" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.74599923;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-6-3"
+       width="55.51722"
+       height="9.9195108"
+       x="148.23724"
+       y="147.57881" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:1"
+       x="151.94267"
+       y="154.32681"
+       id="text12-4-7"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-0-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.04275746;stroke-dasharray:none"
+         x="151.94267"
+         y="154.32681">MG996R伺服馬達</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.74599923;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-60-5-6"
+       width="42.229092"
+       height="9.9288206"
+       x="215.90411"
+       y="147.05531" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:1"
+       x="220.07979"
+       y="153.81149"
+       id="text12-1-9-6"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.04275746;stroke-dasharray:none"
+         x="220.07979"
+         y="153.81149">主風帆桅杆</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#042e8a;stroke-width:0.56141946;stroke-dasharray:6.73703311, 0.56141946;stroke-dashoffset:0;stroke-opacity:0.854902"
+       id="rect1"
+       width="26.930983"
+       height="191.72156"
+       x="139.79315"
+       y="-210.22914"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.74599923;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-60-5-6-3"
+       width="35.623901"
+       height="9.9876165"
+       x="159.76276"
+       y="186.04507" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:1"
+       x="163.86942"
+       y="192.46954"
+       id="text12-1-9-6-0"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.04275746;stroke-dasharray:none"
+         x="163.86942"
+         y="192.46954">降壓模組</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:1"
+       x="181.57631"
+       y="177.94048"
+       id="text12-1-9-6-0-2"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.04275746;stroke-dasharray:none"
+         x="181.57631"
+         y="177.94048">6V</tspan></text>
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.96755705;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-3)"
+       d="M 177.24656,224.2041 V 197.07133"
+       id="path18-8-8-0-9-5" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-3-2)"
+       d="M 174.29318,383.33227 V 368.459"
+       id="path18-8-8-0-9-5-04" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.74599923;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-60-5-6-3-4"
+       width="46.168365"
+       height="9.8960886"
+       x="156.24179"
+       y="224.60495" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:1"
+       x="160.82037"
+       y="230.72054"
+       id="text12-1-9-6-0-9"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.04275746;stroke-dasharray:none"
+         x="160.82037"
+         y="230.72054">18650電池組</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:1"
+       x="181.78069"
+       y="216.19147"
+       id="text12-1-9-6-0-2-9"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-3-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.04275746;stroke-dasharray:none"
+         x="181.78069"
+         y="216.19147">14.8V</tspan></text>
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.96637606;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-3-4)"
+       d="M 117.46292,185.83129 V 158.76473"
+       id="path18-8-8-0-9-5-5" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.74599923;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-60-5-6-3-4-6"
+       width="43.297459"
+       height="9.9197865"
+       x="96.648254"
+       y="186.01833" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:1"
+       x="100.62548"
+       y="192.67674"
+       id="text12-1-9-6-0-9-3"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-4-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.04275746;stroke-dasharray:none"
+         x="100.62548"
+         y="192.67674">9V方形電池</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:1"
+       x="121.58579"
+       y="178.14767"
+       id="text12-1-9-6-0-2-9-3"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-3-5-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.04275746;stroke-dasharray:none"
+         x="121.58579"
+         y="178.14767">9V</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#f34f31;stroke-width:0.82899919;stroke-dasharray:9.94800073, 0.82899919;stroke-dashoffset:0;stroke-opacity:0.854902"
+       id="rect1-1"
+       width="99.245056"
+       height="113.3672"
+       x="143.71962"
+       y="-207.05891"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f34f31;fill-opacity:0.854902;stroke:#f34f31;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:0.854902"
+       x="98.747002"
+       y="235.49503"
+       id="text12-4-3-9-1-90-2"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan4-2-7"
+         x="98.747002"
+         y="235.49503">電力供應</tspan><tspan
+         sodipodi:role="line"
+         id="tspan5-4-9"
+         x="98.747002"
+         y="244.83824" /></text>
+    <rect
+       style="fill:none;fill-opacity:0.854902;stroke:#000000;stroke-width:0.60683542;stroke-miterlimit:2.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2"
+       width="256.69879"
+       height="119.99187"
+       x="10.578248"
+       y="132.19432" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:1"
+       x="26.101189"
+       y="327.44595"
+       id="text12-4-3-9-1-9"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan4-25"
+         x="26.101189"
+         y="327.44595">設定好的目標角度</tspan><tspan
+         sodipodi:role="line"
+         x="26.101189"
+         y="336.78915"
+         id="tspan1-8">    (90度)</tspan><tspan
+         sodipodi:role="line"
+         id="tspan5-5"
+         x="26.101189"
+         y="346.13239" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#042e8b;fill-opacity:0.852174;stroke:#0328a4;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:0.372549"
+       x="21.707933"
+       y="355.62271"
+       id="text12-4-3-9-1-90-1"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan4-2-5"
+         x="21.707933"
+         y="355.62271">訊號控制</tspan><tspan
+         sodipodi:role="line"
+         id="tspan5-4-0"
+         x="21.707933"
+         y="364.96591" /></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.97188802;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-6-5-6-4-7"
+       width="36.601345"
+       height="60.418537"
+       x="99.490967"
+       y="273.81757" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:1"
+       x="105.83223"
+       y="302.84991"
+       id="text12-4-3-9-9-6"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan3-4"
+         x="105.83223"
+         y="302.84991">Arduino</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#308c16;stroke-width:0.69999929;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-3)"
+       d="m 86.623608,329.41836 h 11.76962"
+       id="path18-8-8-3" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#9202bc;stroke-width:0.69999929;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-3-3)"
+       d="M 87.250965,280.79141 H 99.020587"
+       id="path18-8-8-3-8" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#9202bc;stroke-width:0.69999929;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-3-4)"
+       d="m 136.20876,279.4067 h 11.76962"
+       id="path18-8-8-3-1" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#308c16;stroke-width:0.69999929;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-9)"
+       d="m 136.29296,329.78639 h 11.76963"
+       id="path18-8-8-0-0" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-9)"
+       d="M 173.68567,306.61188 V 285.70111"
+       id="path18-8-8-0-9-4" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.84119515;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-8-7)"
+       d="m 198.34797,329.26539 h 16.99656"
+       id="path18-8-8-0-9-6-5" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.84119515;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-8-7-6)"
+       d="m 198.26963,279.79455 h 16.99656"
+       id="path18-8-8-0-9-6-5-7" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.70674929;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-6-3-0"
+       width="49.632626"
+       height="9.9587603"
+       x="148.47731"
+       y="324.52554" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.70699934;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-6-3-0-6"
+       width="49.632626"
+       height="9.9587603"
+       x="148.61958"
+       y="274.93109" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:1"
+       x="152.20415"
+       y="330.08411"
+       id="text12-4-7-4"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-0-2-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.04275746;stroke-dasharray:none"
+         x="152.20415"
+         y="330.08411">SG90伺服馬達</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:1"
+       x="152.58044"
+       y="280.71533"
+       id="text12-4-7-4-7"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-0-2-6-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.04275746;stroke-dasharray:none"
+         x="152.58044"
+         y="280.71533">SG90伺服馬達</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.79858522;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-60-5-6-4"
+       width="48.650089"
+       height="9.876235"
+       x="216.19011"
+       y="324.04797" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.79858522;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-60-5-6-4-1"
+       width="48.650089"
+       height="9.876235"
+       x="216.2594"
+       y="274.65814" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:1"
+       x="220.34125"
+       y="329.56879"
+       id="text12-1-9-6-6"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.04275746;stroke-dasharray:none"
+         x="220.34125"
+         y="329.56879">左側風帆桅杆</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:1"
+       x="219.83557"
+       y="280.52707"
+       id="text12-1-9-6-6-5"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-9-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.04275746;stroke-dasharray:none"
+         x="219.83557"
+         y="280.52707">右側風帆桅杆</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#042e8a;stroke-width:0.93991509;stroke-dasharray:11.2789889, 0.93991509;stroke-dashoffset:0;stroke-opacity:0.854902"
+       id="rect1-5"
+       width="80.435562"
+       height="179.91908"
+       x="267.25443"
+       y="-202.68358"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.745999;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-60-5-6-3-43"
+       width="35.623901"
+       height="9.9876165"
+       x="156.15308"
+       y="357.6514" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="160.28284"
+       y="362.99802"
+       id="text12-1-9-6-0-5"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="160.28284"
+         y="362.99802">降壓模組</tspan></text>
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1"
+       d="M 174.03145,357.57083 V 340.67015"
+       id="path18-8-8-0-9-5-0" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.745999;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-60-5-6-3-4-8"
+       width="46.168365"
+       height="9.8960886"
+       x="150.71457"
+       y="383.58432" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="155.25514"
+       y="388.61377"
+       id="text12-1-9-6-0-9-39"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-4-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="155.25514"
+         y="388.61377">18650電池組</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="178.7077"
+       y="376.25931"
+       id="text12-1-9-6-0-2-9-2"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-3-5-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="178.7077"
+         y="376.25931">14.8V</tspan></text>
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.96637606;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-3-4-0)"
+       d="M 116.58021,363.55923 V 336.49267"
+       id="path18-8-8-0-9-5-5-9" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.74599923;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-60-5-6-3-4-6-8"
+       width="43.297459"
+       height="9.9197865"
+       x="95.765541"
+       y="363.74628" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:1"
+       x="99.736694"
+       y="369.19043"
+       id="text12-1-9-6-0-9-3-0"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-4-6-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.04275746;stroke-dasharray:none"
+         x="99.736694"
+         y="369.19043">9V方形電池</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:1"
+       x="120.69701"
+       y="354.66135"
+       id="text12-1-9-6-0-2-9-3-4"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-3-5-2-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.04275746;stroke-dasharray:none"
+         x="120.69701"
+         y="354.66135">9V</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#f34f31;stroke-width:0.953715;stroke-dasharray:11.4445, 0.953715;stroke-dashoffset:0;stroke-opacity:0.854902"
+       id="rect1-1-8"
+       width="131.49687"
+       height="113.24249"
+       x="264.19968"
+       y="-205.16185"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f34f31;fill-opacity:0.854902;stroke:#f34f31;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:0.854902"
+       x="217.63675"
+       y="375.91312"
+       id="text12-4-3-9-1-90-2-8"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan4-2-7-0"
+         x="217.63675"
+         y="375.91312">電力供應</tspan><tspan
+         sodipodi:role="line"
+         id="tspan5-4-9-6"
+         x="217.63675"
+         y="385.25632" /></text>
+    <rect
+       style="fill:none;fill-opacity:0.854902;stroke:#000000;stroke-width:0.66136532;stroke-miterlimit:2.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2-0"
+       width="256.64426"
+       height="142.55565"
+       x="11.0556"
+       y="257.24811" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.04275746;stroke-dasharray:none;stroke-opacity:1"
+       x="26.012304"
+       y="274.49255"
+       id="text12-4-3-9-1-9-6"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan4-25-0"
+         x="26.012304"
+         y="274.49255">設定好的目標角度</tspan><tspan
+         sodipodi:role="line"
+         x="26.012304"
+         y="283.83575"
+         id="tspan1-8-9">    (-90度)</tspan><tspan
+         sodipodi:role="line"
+         id="tspan5-5-9"
+         x="26.012304"
+         y="293.17899" /></text>
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-9-6)"
+       d="m 173.68347,305.93977 v 17.70328"
+       id="path18-8-8-0-9-4-8" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="178.07607"
+       y="353.04715"
+       id="text12-1-9-6-0-2-3-4"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-3-2-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="178.07607"
+         y="353.04715">6V</tspan></text>
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1"
+       d="M 174.27951,341.02024 H 142.86275"
+       id="path18-8-8-0-9-5-0-2" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1"
+       d="M 143.23176,341.34853 V 305.45738"
+       id="path18-8-8-0-9-5-0-2-4" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1"
+       d="m 143.01441,305.8021 h 30.55896"
+       id="path18-8-8-0-9-5-0-2-4-2" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-3-2-6)"
+       d="M 173.65406,681.78129 V 666.90802"
+       id="path18-8-8-0-9-5-04-1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="25.457676"
+       y="623.85596"
+       id="text12-4-3-9-1-9-0"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan4-25-4"
+         x="25.457676"
+         y="623.85596">設定好的目標角度</tspan><tspan
+         sodipodi:role="line"
+         x="25.457676"
+         y="633.19916"
+         id="tspan1-8-3">    (10度)</tspan><tspan
+         sodipodi:role="line"
+         id="tspan5-5-5"
+         x="25.457676"
+         y="642.54236" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#042e8b;fill-opacity:0.852174;stroke:#0328a4;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:0.372549"
+       x="21.064423"
+       y="652.03271"
+       id="text12-4-3-9-1-90-1-9"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan4-2-5-7"
+         x="21.064423"
+         y="652.03271">訊號控制</tspan><tspan
+         sodipodi:role="line"
+         id="tspan5-4-0-7"
+         x="21.064423"
+         y="661.37592" /></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.971888;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-6-5-6-4-7-2"
+       width="36.601345"
+       height="60.418537"
+       x="98.851852"
+       y="572.2666" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="105.18872"
+       y="599.25995"
+       id="text12-4-3-9-9-6-1"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan3-4-6"
+         x="105.18872"
+         y="599.25995">Arduino</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#308c16;stroke-width:0.699999;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-3-2)"
+       d="m 85.984492,627.86738 h 11.76962"
+       id="path18-8-8-3-9" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#9202bc;stroke-width:0.699999;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-3-3-1)"
+       d="m 86.611852,579.24043 h 11.76962"
+       id="path18-8-8-3-8-1" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#9202bc;stroke-width:0.699999;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-3-4-2)"
+       d="m 135.56964,577.85572 h 11.76962"
+       id="path18-8-8-3-1-8" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#308c16;stroke-width:0.699999;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-9-6)"
+       d="m 135.65384,628.23541 h 11.76963"
+       id="path18-8-8-0-0-8" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-9-2)"
+       d="M 173.04655,605.0609 V 584.15013"
+       id="path18-8-8-0-9-4-2" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.841195;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-8-7-9)"
+       d="m 197.70885,627.71441 h 16.99656"
+       id="path18-8-8-0-9-6-5-2" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.841195;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-8-7-6-5)"
+       d="m 197.63051,578.24357 h 16.99656"
+       id="path18-8-8-0-9-6-5-7-4" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.706749;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-6-3-0-9"
+       width="49.632626"
+       height="9.9587603"
+       x="147.8382"
+       y="622.97455" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.59842;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-6-3-0-9-3"
+       width="35.200611"
+       height="10.067089"
+       x="44.219662"
+       y="751.17816" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.706999;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-6-3-0-6-6"
+       width="49.632626"
+       height="9.9587603"
+       x="147.98047"
+       y="573.38013" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="151.56062"
+       y="626.49414"
+       id="text12-4-7-4-0"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-0-2-6-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="151.56062"
+         y="626.49414">SG90伺服馬達</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="47.9436"
+       y="753.91528"
+       id="text12-4-7-4-0-6"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-0-2-6-2-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="47.9436"
+         y="753.91528">光遮斷器</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="151.93692"
+       y="577.12537"
+       id="text12-4-7-4-7-5"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-0-2-6-0-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="151.93692"
+         y="577.12537">SG90伺服馬達</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.741533;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-60-5-6-4-0"
+       width="41.706234"
+       height="9.9332867"
+       x="215.52248"
+       y="622.46851" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.734634;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-60-5-6-4-1-2"
+       width="40.905338"
+       height="9.9401865"
+       x="215.5883"
+       y="573.0752" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="219.69772"
+       y="625.97882"
+       id="text12-1-9-6-6-1"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-9-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="219.69772"
+         y="625.97882">左側煞車塊</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="219.19205"
+       y="576.93707"
+       id="text12-1-9-6-6-5-0"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-9-7-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="219.19205"
+         y="576.93707">右側煞車塊</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#042e8a;stroke-width:0.939915;stroke-dasharray:11.279, 0.939915;stroke-dashoffset:0;stroke-opacity:0.854902"
+       id="rect1-5-7"
+       width="80.435562"
+       height="179.91908"
+       x="565.70343"
+       y="-202.04446"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.745999;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-60-5-6-3-43-7"
+       width="35.623901"
+       height="9.9876165"
+       x="155.51396"
+       y="656.1004" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="159.63931"
+       y="659.40802"
+       id="text12-1-9-6-0-5-3"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-1-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="159.63931"
+         y="659.40802">降壓模組</tspan></text>
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1"
+       d="M 173.39233,656.01985 V 639.11917"
+       id="path18-8-8-0-9-5-0-3" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.745999;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-60-5-6-3-4-8-6"
+       width="46.168365"
+       height="9.8960886"
+       x="150.07545"
+       y="682.03333" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="154.61162"
+       y="685.0238"
+       id="text12-1-9-6-0-9-39-0"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-4-3-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="154.61162"
+         y="685.0238">18650電池組</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="178.06418"
+       y="672.66931"
+       id="text12-1-9-6-0-2-9-2-7"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-3-5-8-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="178.06418"
+         y="672.66931">14.8V</tspan></text>
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.966376;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-3-4-0-8)"
+       d="M 115.94109,662.00825 V 634.94169"
+       id="path18-8-8-0-9-5-5-9-0" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.745999;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-60-5-6-3-4-6-8-2"
+       width="43.297459"
+       height="9.9197865"
+       x="95.126419"
+       y="662.19531" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="99.093185"
+       y="665.60046"
+       id="text12-1-9-6-0-9-3-0-0"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-4-6-8-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="99.093185"
+         y="665.60046">9V方形電池</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="120.0535"
+       y="651.07135"
+       id="text12-1-9-6-0-2-9-3-4-3"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-3-5-2-0-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="120.0535"
+         y="651.07135">9V</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#f34f31;stroke-width:0.953715;stroke-dasharray:11.4445, 0.953715;stroke-dashoffset:0;stroke-opacity:0.854902"
+       id="rect1-1-8-4"
+       width="131.49687"
+       height="113.24249"
+       x="562.64868"
+       y="-204.52274"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f34f31;fill-opacity:0.854902;stroke:#f34f31;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:0.854902"
+       x="216.99323"
+       y="672.32312"
+       id="text12-4-3-9-1-90-2-8-9"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan4-2-7-0-9"
+         x="216.99323"
+         y="672.32312">電力供應</tspan><tspan
+         sodipodi:role="line"
+         id="tspan5-4-9-6-3"
+         x="216.99323"
+         y="681.66632" /></text>
+    <rect
+       style="fill:none;fill-opacity:0.854902;stroke:#000000;stroke-width:0.654065;stroke-miterlimit:2.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2-0-5"
+       width="250.99698"
+       height="142.56294"
+       x="10.412834"
+       y="555.69348" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="25.368793"
+       y="570.90259"
+       id="text12-4-3-9-1-9-6-9"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan4-25-0-6"
+         x="25.368793"
+         y="570.90259">設定好的目標角度</tspan><tspan
+         sodipodi:role="line"
+         x="25.368793"
+         y="580.24579"
+         id="tspan1-8-9-4">    (-10度)</tspan><tspan
+         sodipodi:role="line"
+         id="tspan5-5-9-3"
+         x="25.368793"
+         y="589.58899" /></text>
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-9-6-9)"
+       d="m 173.04435,604.38879 v 17.70328"
+       id="path18-8-8-0-9-4-8-6" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="177.43254"
+       y="649.45715"
+       id="text12-1-9-6-0-2-3-4-1"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-3-2-1-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="177.43254"
+         y="649.45715">6V</tspan></text>
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1"
+       d="M 173.64039,639.46926 H 142.22363"
+       id="path18-8-8-0-9-5-0-2-7" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1"
+       d="M 142.59264,639.79755 V 603.9064"
+       id="path18-8-8-0-9-5-0-2-4-9" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none;stroke-opacity:1"
+       d="m 142.37529,604.25112 h 30.55896"
+       id="path18-8-8-0-9-5-0-2-4-2-8" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="19.321257"
+       y="448.98227"
+       id="text12-4-3-9-1-7"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan4-5"
+         x="19.321257"
+         y="448.98227">設定好的理想偏差角</tspan><tspan
+         sodipodi:role="line"
+         x="19.321257"
+         y="458.32547"
+         id="tspan1-4" /><tspan
+         sodipodi:role="line"
+         id="tspan5-42"
+         x="19.321257"
+         y="467.6687" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#042e8b;fill-opacity:0.852174;stroke:#0328a4;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:0.372549"
+       x="17.611933"
+       y="470.54056"
+       id="text12-4-3-9-1-90-16"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan4-2-4"
+         x="17.611933"
+         y="470.54056">訊號控制</tspan><tspan
+         sodipodi:role="line"
+         id="tspan5-4-7"
+         x="17.611933"
+         y="479.88376" /></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.745999;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-6-5-6-4-5"
+       width="37.436779"
+       height="10.036489"
+       x="98.242035"
+       y="445.08566" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="105.187"
+       y="449.72543"
+       id="text12-4-3-9-9-0"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan3-40"
+         x="105.187"
+         y="449.72543">Arduino</tspan></text>
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.623016;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-2)"
+       d="m 85.982788,449.50592 h 11.76962"
+       id="path18-8-8-6" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.699999;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-0)"
+       d="m 135.65214,449.87395 h 11.76963"
+       id="path18-8-8-0-07" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.888816;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-0-3)"
+       d="m 79.716421,753.65859 h 18.97543"
+       id="path18-8-8-0-07-6" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.803523;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-0-3-9)"
+       d="M 82.480387,773.54495 H 97.988675"
+       id="path18-8-8-0-07-6-6" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.967557;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-5)"
+       d="M 176.66244,482.74388 V 455.61111"
+       id="path18-8-8-0-9-0" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.699999;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-8-6)"
+       d="m 202.68856,449.35295 h 11.76962"
+       id="path18-8-8-0-9-6-3" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.745999;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-6-3-4"
+       width="55.51722"
+       height="9.9195108"
+       x="147.85611"
+       y="444.63272" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="151.55891"
+       y="449.35123"
+       id="text12-4-7-1"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-0-2-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="151.55891"
+         y="449.35123">MG996R伺服馬達</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.745999;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-60-5-6-41"
+       width="42.229092"
+       height="9.9288206"
+       x="215.52298"
+       y="444.10922" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="219.69603"
+       y="448.83591"
+       id="text12-1-9-6-4"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="219.69603"
+         y="448.83591">主風帆桅杆</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#042e8a;stroke-width:0.807719;stroke-dasharray:9.69264, 0.807719;stroke-dashoffset:0;stroke-opacity:0.854902"
+       id="rect1-3"
+       width="55.815815"
+       height="191.47525"
+       x="407.83905"
+       y="-209.72484"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.745999;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-60-5-6-3-0"
+       width="35.623901"
+       height="9.9876165"
+       x="159.38162"
+       y="483.099" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="163.48566"
+       y="487.49399"
+       id="text12-1-9-6-0-1"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-15"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="163.48566"
+         y="487.49399">降壓模組</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="181.19255"
+       y="472.96487"
+       id="text12-1-9-6-0-2-3"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-3-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="181.19255"
+         y="472.96487">6V</tspan></text>
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.967557;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-3-5)"
+       d="M 176.86543,521.258 V 494.12523"
+       id="path18-8-8-0-9-5-3" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.745999;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-60-5-6-3-4-1"
+       width="46.168365"
+       height="9.8960886"
+       x="155.86066"
+       y="521.65887" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="160.43661"
+       y="525.745"
+       id="text12-1-9-6-0-9-4"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-4-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="160.43661"
+         y="525.745">18650電池組</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="181.39693"
+       y="511.21591"
+       id="text12-1-9-6-0-2-9-5"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-3-5-28"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="181.39693"
+         y="511.21591">14.8V</tspan></text>
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.966376;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-3-4-04)"
+       d="M 117.08179,482.88519 V 455.81863"
+       id="path18-8-8-0-9-5-5-91" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.745999;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-60-5-6-3-4-6-88"
+       width="43.297459"
+       height="9.9197865"
+       x="96.26712"
+       y="483.0722" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="100.24172"
+       y="487.70114"
+       id="text12-1-9-6-0-9-3-1"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-4-6-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="100.24172"
+         y="487.70114">9V方形電池</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="121.20204"
+       y="473.17209"
+       id="text12-1-9-6-0-2-9-3-8"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-3-5-2-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="121.20204"
+         y="473.17209">9V</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#f34f31;stroke-width:0.945426;stroke-dasharray:11.3451, 0.945426;stroke-dashoffset:0;stroke-opacity:0.854902"
+       id="rect1-1-9"
+       width="129.21176"
+       height="113.25078"
+       x="410.74863"
+       y="-206.61955"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f34f31;fill-opacity:0.854902;stroke:#f34f31;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:0.854902"
+       x="98.363243"
+       y="530.51947"
+       id="text12-4-3-9-1-90-2-2"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan4-2-7-08"
+         x="98.363243"
+         y="530.51947">電力供應</tspan><tspan
+         sodipodi:role="line"
+         id="tspan5-4-9-0"
+         x="98.363243"
+         y="539.86267" /></text>
+    <rect
+       style="fill:none;fill-opacity:0.854902;stroke:#000000;stroke-width:0.666714;stroke-miterlimit:2.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2-4"
+       width="256.63892"
+       height="144.87433"
+       x="10.227052"
+       y="404.33582" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.803341;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-6-5-6-4-5-4"
+       width="43.662624"
+       height="9.979147"
+       x="96.690506"
+       y="417.50095" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="98.810631"
+       y="422.59515"
+       id="text12-4-3-9-9-0-9"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         x="98.810631"
+         y="422.59515">IMU MPU6050</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.803341;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-6-5-6-4-5-4-5"
+       width="43.662624"
+       height="9.979147"
+       x="38.477249"
+       y="771.46667" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="40.19693"
+       y="774.14258"
+       id="text12-4-3-9-9-0-9-7"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan2-2"
+         x="40.19693"
+         y="774.14258">IMU MPU6050</tspan></text>
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.756468;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-3-4-04-5)"
+       d="m 116.59711,427.66773 v 16.58523"
+       id="path18-8-8-0-9-5-5-91-2" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.744691;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-3-4-04-0)"
+       d="M 130.01416,444.62842 V 428.55557"
+       id="path18-8-8-0-9-5-5-91-9" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="134.64301"
+       y="435.92456"
+       id="text12-1-9-6-0-2-9-3-8-1"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-3-5-2-4-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="134.64301"
+         y="435.92456">5V</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#042e8b;fill-opacity:0.852174;stroke:#0328a4;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:0.372549"
+       x="157.79361"
+       y="794.42694"
+       id="text12-4-3-9-1-90-1-9-1"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan4-2-5-7-1"
+         x="157.79361"
+         y="794.42694">訊號控制</tspan><tspan
+         sodipodi:role="line"
+         id="tspan5-4-0-7-0"
+         x="157.79361"
+         y="803.77014" /></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.971888;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-6-5-6-4-7-2-1"
+       width="36.601345"
+       height="60.418537"
+       x="99.081215"
+       y="728.59784" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="105.41966"
+       y="754.52307"
+       id="text12-4-3-9-9-6-1-5"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan3-4-6-3"
+         x="105.41966"
+         y="754.52307">Arduino</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#042e8a;stroke-width:0.802038;stroke-dasharray:9.62447, 0.802038;stroke-dashoffset:0;stroke-opacity:0.854902"
+       id="rect1-5-7-1"
+       width="80.573441"
+       height="130.78134"
+       x="721.96576"
+       y="-153.06714"
+       transform="rotate(90)" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.998382;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-5-3-4-0-8-8)"
+       d="M 116.17046,818.33947 V 789.45033"
+       id="path18-8-8-0-9-5-5-9-0-1" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.745999;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-60-5-6-3-4-6-8-2-2"
+       width="43.297459"
+       height="9.9197865"
+       x="95.355782"
+       y="818.52655" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="99.324127"
+       y="820.86359"
+       id="text12-1-9-6-0-9-3-0-0-5"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-4-6-8-2-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="99.324127"
+         y="820.86359">9V方形電池</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="120.28444"
+       y="806.33447"
+       id="text12-1-9-6-0-2-9-3-4-3-6"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-04-4-2-1-3-5-2-0-9-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="120.28444"
+         y="806.33447">9V</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#f34f31;stroke-width:0.955962;stroke-dasharray:11.4714, 0.955962;stroke-dashoffset:0;stroke-opacity:0.854902"
+       id="rect1-1-8-4-4"
+       width="131.49463"
+       height="113.77878"
+       x="718.98102"
+       y="-144.974"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f34f31;fill-opacity:0.854902;stroke:#f34f31;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:0.854902"
+       x="40.106525"
+       y="837.65106"
+       id="text12-4-3-9-1-90-2-8-9-3"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan4-2-7-0-9-3"
+         x="40.106525"
+         y="837.65106">電力供應</tspan><tspan
+         sodipodi:role="line"
+         id="tspan5-4-9-6-3-4"
+         x="40.106525"
+         y="846.99426" /></text>
+    <rect
+       style="fill:none;fill-opacity:0.854902;stroke:#000000;stroke-width:0.558215;stroke-miterlimit:2.3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2-0-5-3"
+       width="182.69936"
+       height="142.6588"
+       x="10.594275"
+       y="711.97681" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.812868;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-0-3-9-8)"
+       d="M 98.908613,779.7295 H 83.037514"
+       id="path18-8-8-0-07-6-6-5" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.888816;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-0-3-96)"
+       d="M 99.24898,759.06345 H 80.27355"
+       id="path18-8-8-0-07-6-8" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="87.248543"
+       y="781.93793"
+       id="text12-1-9-6-0-2-9-3-4-3-6-2"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="87.248543"
+         y="781.93793"
+         id="tspan6">5V</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="86.971664"
+       y="761.0694"
+       id="text12-1-9-6-0-2-9-3-4-3-6-2-3"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="86.971664"
+         y="761.0694"
+         id="tspan6-9">5V</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.59842;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-6-3-0-9-3-0"
+       width="35.200611"
+       height="10.067089"
+       x="43.718266"
+       y="733.42706" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="47.438751"
+       y="736.28546"
+       id="text12-4-7-4-0-6-4"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         id="tspan12-0-2-6-2-5-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="47.438751"
+         y="736.28546">光遮斷器</tspan></text>
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.888816;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-0-3-2)"
+       d="m 79.215024,735.90745 h 18.97543"
+       id="path18-8-8-0-07-6-7" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.888816;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-6-8-7-0-3-96-8)"
+       d="M 98.747583,741.31231 H 79.772153"
+       id="path18-8-8-0-07-6-8-9" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0427575;stroke-dasharray:none;stroke-opacity:1"
+       x="86.46682"
+       y="743.43958"
+       id="text12-1-9-6-0-2-9-3-4-3-6-2-3-1"
+       transform="scale(0.99316799,1.006879)"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47457px;font-family:'BIZ UDMincho';-inkscape-font-specification:'BIZ UDMincho, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.0427575;stroke-dasharray:none"
+         x="86.46682"
+         y="743.43958"
+         id="tspan6-9-3">5V</tspan></text>
+  </g>
+</svg>

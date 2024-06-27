@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="牛眼輪FBD.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.98261083"
+     inkscape:cx="377.56555"
+     inkscape:cy="553.11827"
+     inkscape:window-width="2560"
+     inkscape:window-height="1334"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DartArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker9-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path9-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker9-2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path9-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DartArrow-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path8-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker9-9-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path9-1-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker9-9-0-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path9-1-0-8" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="圖層 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.373;stroke-dasharray:none;stroke-opacity:1"
+       d="M 59.704274,205.64505 H 177.1808"
+       id="path13" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:0.854902"
+       d="M 55.515463,87.893901 H 185.87521 L 55.107764,52.854872 v 31.463069 3.634188 z"
+       id="path10" />
+    <rect
+       style="fill:#e59350;fill-opacity:0.852174;stroke:#000000;stroke-width:0.658847;stroke-dasharray:none;stroke-opacity:0.854902"
+       id="rect6"
+       width="41.0177"
+       height="26.907616"
+       x="-158.72359"
+       y="9.5354252"
+       transform="matrix(-0.96592583,-0.25881904,-0.25881904,0.96592583,0,0)" />
+    <path
+       style="fill:#e59350;fill-opacity:0.852174;stroke:#a71245;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker9)"
+       d="M 112.21712,119.95333 122.57113,81.311604"
+       id="path7-2" />
+    <path
+       style="fill:#e59350;fill-opacity:0.852174;stroke:#4163f0;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#DartArrow)"
+       d="M 125.27515,71.683184 80.106553,59.580302"
+       id="path7-2-5" />
+    <path
+       style="fill:#e59350;fill-opacity:0.852174;stroke:#6d10d6;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker9-9)"
+       d="m 128.64778,10.795879 10e-6,37.352072"
+       id="path7-2-58" />
+    <path
+       style="fill:none;fill-opacity:0.852174;stroke:#005f40;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="m 128.67561,57.491915 v 16.654833 24.81413"
+       id="path7"
+       sodipodi:nodetypes="ccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.57085px;font-family:Arial;-inkscape-font-specification:'Arial, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:none;fill-opacity:1;stroke:#4163f0;stroke-width:0.595669;stroke-dasharray:none;stroke-opacity:0.996078"
+       x="71.912354"
+       y="69.226128"
+       id="text13"
+       transform="scale(0.9387114,1.0652901)"><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         style="stroke-width:0.595669"
+         x="71.912354"
+         y="69.226128">牽引力</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.44796px;font-family:Arial;-inkscape-font-specification:'Arial, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:none;fill-opacity:1;stroke:#a71245;stroke-width:0.587128;stroke-dasharray:none;stroke-opacity:1"
+       x="103.74193"
+       y="73.547134"
+       id="text13-7"
+       transform="scale(0.92427672,1.0819271)"><tspan
+         sodipodi:role="line"
+         id="tspan13-7"
+         style="stroke:#a71245;stroke-width:0.587128;stroke-opacity:1"
+         x="103.74193"
+         y="73.547134">正向力</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.64378px;font-family:Arial;-inkscape-font-specification:'Arial, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:none;fill-opacity:1;stroke:#005f40;stroke-width:0.600737;stroke-dasharray:none;stroke-opacity:1"
+       x="139.64165"
+       y="102.08532"
+       id="text13-7-0"
+       transform="scale(0.94731588,1.0556141)"><tspan
+         sodipodi:role="line"
+         id="tspan13-7-0"
+         style="stroke:#005f40;stroke-width:0.600737;stroke-opacity:1"
+         x="139.64165"
+         y="102.08532">牛眼輪重力</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.64378px;font-family:Arial;-inkscape-font-specification:'Arial, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:none;fill-opacity:1;stroke:#6d10d6;stroke-width:0.600737;stroke-dasharray:none;stroke-opacity:1"
+       x="140.31139"
+       y="31.058155"
+       id="text13-7-0-8"
+       transform="scale(0.94731588,1.0556141)"><tspan
+         sodipodi:role="line"
+         id="tspan13-7-0-8"
+         style="stroke:#6d10d6;stroke-width:0.600737;stroke-opacity:1"
+         x="140.31139"
+         y="31.058155">荷重</tspan></text>
+    <rect
+       style="fill:#e59350;fill-opacity:0.852174;stroke:#000000;stroke-width:0.658847;stroke-dasharray:none;stroke-opacity:0.854902"
+       id="rect6-6"
+       width="41.0177"
+       height="26.907616"
+       x="-142.13303"
+       y="178.20468"
+       transform="scale(-1,1)" />
+    <path
+       style="fill:#e59350;fill-opacity:0.852174;stroke:#a71245;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker9-2)"
+       d="M 119.34706,255.5929 V 215.58804"
+       id="path7-2-51" />
+    <path
+       style="fill:#e59350;fill-opacity:0.852174;stroke:#6d10d6;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker9-9-0)"
+       d="m 121.95522,146.18946 1e-5,37.35207"
+       id="path7-2-58-9" />
+    <path
+       style="fill:none;fill-opacity:0.852174;stroke:#005f40;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow-9)"
+       d="m 124.02168,192.84606 v 21.89861 32.62686"
+       id="path7-7"
+       sodipodi:nodetypes="ccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.57085px;font-family:Arial;-inkscape-font-specification:'Arial, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:none;fill-opacity:1;stroke:#4163f0;stroke-width:0.595669;stroke-dasharray:none;stroke-opacity:0.996078"
+       x="73.654373"
+       y="205.87463"
+       id="text13-0"
+       transform="scale(0.93871143,1.0652901)"><tspan
+         sodipodi:role="line"
+         id="tspan13-0"
+         style="stroke-width:0.595669"
+         x="73.654373"
+         y="205.87463">牽引力</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.44796px;font-family:Arial;-inkscape-font-specification:'Arial, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:none;fill-opacity:1;stroke:#a71245;stroke-width:0.587128;stroke-dasharray:none;stroke-opacity:1"
+       x="96.438644"
+       y="225.02515"
+       id="text13-7-2"
+       transform="scale(0.9242767,1.0819271)"><tspan
+         sodipodi:role="line"
+         id="tspan13-7-5"
+         style="stroke:#a71245;stroke-width:0.587128;stroke-opacity:1"
+         x="96.438644"
+         y="225.02515">正向力</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.64378px;font-family:Arial;-inkscape-font-specification:'Arial, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:none;fill-opacity:1;stroke:#005f40;stroke-width:0.600737;stroke-dasharray:none;stroke-opacity:1"
+       x="140.81741"
+       y="218.98257"
+       id="text13-7-0-85"
+       transform="scale(0.94731588,1.0556141)"><tspan
+         sodipodi:role="line"
+         id="tspan13-7-0-9"
+         style="stroke:#005f40;stroke-width:0.600737;stroke-opacity:1"
+         x="140.81741"
+         y="218.98257">牛眼輪重力</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.64378px;font-family:Arial;-inkscape-font-specification:'Arial, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:none;fill-opacity:1;stroke:#6d10d6;stroke-width:0.600737;stroke-dasharray:none;stroke-opacity:1"
+       x="132.99687"
+       y="159.52087"
+       id="text13-7-0-8-2"
+       transform="scale(0.94731588,1.0556141)"><tspan
+         sodipodi:role="line"
+         id="tspan13-7-0-8-5"
+         style="stroke:#6d10d6;stroke-width:0.600737;stroke-opacity:1"
+         x="132.99687"
+         y="159.52087">荷重</tspan></text>
+    <path
+       style="fill:#e59350;fill-opacity:0.852174;stroke:#4163f0;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:0.996078;marker-end:url(#DartArrow-9)"
+       d="m 121.31768,205.55223 -46.761969,1e-5"
+       id="path7-2-5-2" />
+    <path
+       style="fill:#e59350;fill-opacity:0.852174;stroke:#6e5d55;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker9-9-0-8)"
+       d="m 66.864155,193.14908 45.114215,-1e-5"
+       id="path7-2-58-9-8" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.57085px;font-family:Arial;-inkscape-font-specification:'Arial, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:none;fill-opacity:1;stroke:#6e5d55;stroke-width:0.595669;stroke-dasharray:none;stroke-opacity:1"
+       x="57.458996"
+       y="177.12268"
+       id="text13-0-5"
+       transform="scale(0.93871143,1.0652901)"><tspan
+         sodipodi:role="line"
+         id="tspan13-0-8"
+         style="stroke:#6e5d55;stroke-width:0.595669;stroke-opacity:1"
+         x="57.458996"
+         y="177.12268">風的推進力</tspan></text>
+  </g>
+</svg>
